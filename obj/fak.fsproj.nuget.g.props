@@ -13,8 +13,6 @@
     <SourceRoot Include="/home/poi/.nuget/packages/" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgSystem_Net_Http Condition=" '$(PkgSystem_Net_Http)' == '' ">/home/poi/.nuget/packages/system.net.http/4.3.4</PkgSystem_Net_Http>
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/home/poi/.nuget/packages/newtonsoft.json/13.0.3</PkgNewtonsoft_Json>
     <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/poi/.nuget/packages/fsharp.core/8.0.102</PkgFSharp_Core>
   </PropertyGroup>
 </Project>
